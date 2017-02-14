@@ -1,0 +1,26 @@
+**/*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+*.war
+
+## Package Files:
+*.jar
+*.ear
+*.class
+
+### eclipse:
+**/.project
+**/.classpath
+**/.settings/**
+.metadata
+
+### Maven ###
+**/target/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
